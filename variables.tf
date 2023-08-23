@@ -1,6 +1,12 @@
 variable "region" {
   type    = string
   default = "eu-west-1"
-  access_key = "mock_access_key"
-  secret_key = "mock_secret_key"
+}
+variable "access_key" {
+  type    = string
+  default = "mock_access_key"
+}
+variable "secret_key" {
+  type    = string
+  default = "mock_secret_key"
 }
